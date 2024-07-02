@@ -45,6 +45,7 @@ const NFCReader = () => {
   return (
     <div className={styles.container}>
       <div className={styles.card}>
+        <div className={styles.rectangle}></div>
         <h1 className={styles.heading}>Lecteur NFC</h1>
         <p className={styles.message}>{message}</p>
         <button className={styles.button} onClick={handleRead}>Lire NFC</button>
